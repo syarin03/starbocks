@@ -6,5 +6,6 @@
 #include <QsqlError>
 #include <QDebug>
 #include <QSqlTableModel>
+#include <QSqlQuery>
 
 #endif // DATABASE_H

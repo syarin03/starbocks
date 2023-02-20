@@ -6,6 +6,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
+    qDebug() << QSqlDatabase::drivers();
     cout << "test" << endl;
     QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
     db.setHostName("10.10.21.116");
@@ -21,6 +22,7 @@ int main(int argc, char *argv[])
     while (query.next())
     {
         int num = query.value(0).toInt();
+        cout << num << endl;
     }
     QApplication a(argc, argv);
     MainWindow w;
