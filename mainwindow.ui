@@ -222,7 +222,7 @@ background-color: rgba(255, 255, 255, 0);</string>
        <string>뒤로가기</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label">
+     <widget class="QLabel" name="signup_label_id">
       <property name="geometry">
        <rect>
         <x>230</x>
@@ -235,7 +235,7 @@ background-color: rgba(255, 255, 255, 0);</string>
        <string>TextLabel</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_3">
+     <widget class="QLabel" name="signup_label_pw">
       <property name="geometry">
        <rect>
         <x>230</x>
@@ -248,7 +248,7 @@ background-color: rgba(255, 255, 255, 0);</string>
        <string>TextLabel</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_4">
+     <widget class="QLabel" name="signup_label_pwck">
       <property name="geometry">
        <rect>
         <x>230</x>
@@ -261,7 +261,7 @@ background-color: rgba(255, 255, 255, 0);</string>
        <string>TextLabel</string>
       </property>
      </widget>
-     <widget class="QLabel" name="label_5">
+     <widget class="QLabel" name="signup_label_role">
       <property name="geometry">
        <rect>
         <x>230</x>
